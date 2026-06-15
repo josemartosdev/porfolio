@@ -1,0 +1,6 @@
+{
+  "name": "Adam Portfolio",
+  "description": "Un porfolio premium bilingüe (Español/Inglés) e interactivo con navegación lateral brillante, barra de habilidades animadas, portafolio de proyectos de alta fidelidad, simulador de bandeja de mensajes y un tema futurista cyberpunk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
