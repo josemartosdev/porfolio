@@ -9,7 +9,7 @@ export const translations: Record<'en' | 'es', Translation> = {
     navLanguages: 'Languages',
     navContact: 'Contact',
 
-    heroTitle: "Hi, I'm José",
+    heroTitle: "Hi, I'm Jose",
     heroSubtitle: "I'm a Full Stack Developer",
     heroDescription:
       'Computer Engineer specialized in web application development, process automation and AI-powered solutions. Experienced with Symfony, PHP, JavaScript, Python and SQL. Passionate about combining software engineering with artificial intelligence.',
@@ -56,7 +56,7 @@ export const translations: Record<'en' | 'es', Translation> = {
     navLanguages: 'Idiomas',
     navContact: 'Contacto',
 
-    heroTitle: 'Hola, soy José',
+    heroTitle: 'Hola, soy Jose',
     heroSubtitle: 'Soy Desarrollador Full Stack',
     heroDescription:
       'Ingeniero Informático especializado en desarrollo de aplicaciones web, automatización de procesos e integración de soluciones basadas en Inteligencia Artificial. Experiencia con Symfony, PHP, JavaScript, Python y SQL.',

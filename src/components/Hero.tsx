@@ -80,9 +80,12 @@ export default function Hero({ t, language }: HeroProps) {
           <div className="absolute -inset-1.5 bg-gradient-to-r from-cyan-400 via-sky-500 to-indigo-600 rounded-full animate-spin-slow opacity-60 pointer-events-none" />
           
           <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-full overflow-hidden border-2 border-slate-950 bg-gradient-to-br from-cyan-600 via-blue-700 to-slate-900 flex items-center justify-center">
-            <span className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white/90 font-sans select-none tracking-tight">
-              JM
-            </span>
+            <img
+              src="/fotos/perfil-corporativo.png"
+              alt="Foto de José Martos"
+              loading="eager"
+              className="w-full h-full object-cover rounded-full"
+            />
           </div>
 
           {/* Glowing Status Dot */}
