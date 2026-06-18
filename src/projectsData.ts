@@ -13,7 +13,7 @@ export const projects: Project[] = [
     tags: ['React', 'Symfony', 'PHP', 'IA'],
     techText: 'React • Symfony 7 • PHP • OpenAI • Microsoft Graph',
     featured: true,
-    demoUrl: 'https://srm-compras-front.vercel.app',
+    demoUrl: 'https://srm-compras-front.vercel.app/login',
     highlightsEn: [
       'Dashboard with KPIs, charts and procurement alerts',
       'Outlook email and calendar sync with hybrid AI classification',
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     tags: ['React', 'Symfony', 'PHP'],
     techText: 'React 19 • Symfony 7 • MySQL • JWT • Vercel + Railway',
     featured: true,
-    demoUrl: 'https://cv-berja-front-qqx9ds48n-jose981s-projects.vercel.app',
+    demoUrl: 'https://cv-berja.vercel.app/',
     highlightsEn: [
       'Custom branding and sponsors for CV Berja volleyball club',
       'Full admin panel for teams, players and accounting',
