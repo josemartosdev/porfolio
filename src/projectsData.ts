@@ -61,7 +61,7 @@ export const projects: Project[] = [
       'Sports club management platform with a modern public site and modules for teams, fixtures, history and sponsors. Designed to centralize communication and improve club operations.',
     descriptionEs:
       'Plataforma de gestion deportiva con web publica moderna y modulos para equipos, partidos, historia y patrocinadores. Disenada para centralizar la comunicacion y mejorar la operativa del club.',
-    image: '/projects/clubflow.svg',
+    image: '/fotos/fotoclubflow.png',
     tags: ['React', 'Node.js'],
     techText: 'React • Vite • TypeScript • Node.js • Vercel',
     featured: true,
