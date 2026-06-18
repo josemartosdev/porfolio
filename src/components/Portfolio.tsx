@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ExternalLink, Github, Layers, X, Eye } from 'lucide-react';
+import { ExternalLink, X, Eye } from 'lucide-react';
 import { Project, Translation } from '../types';
 import { projects } from '../projectsData';
 
@@ -242,18 +242,6 @@ export default function Portfolio({ t, language }: PortfolioProps) {
                 </a>
               )}
 
-              {selectedProject.githubUrl && (
-                <a
-                  id="modal-source-btn"
-                  href={selectedProject.githubUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="px-4.5 py-2 rounded-lg text-xs font-semibold bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800/80 flex items-center gap-1.5 transition-all shadow-md"
-                >
-                  <Github className="w-4 h-4" />
-                  {t('sourceCode')}
-                </a>
-              )}
             </div>
           </div>
         </div>

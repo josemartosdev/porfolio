@@ -82,7 +82,7 @@ export default function Hero({ t, language }: HeroProps) {
           <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-full overflow-hidden border-2 border-slate-950 bg-gradient-to-br from-cyan-600 via-blue-700 to-slate-900 flex items-center justify-center">
             <img
               src="/fotos/perfil-corporativo.png"
-              alt="Foto de José Martos"
+              alt="Foto de Jose Martos"
               loading="eager"
               className="w-full h-full object-cover rounded-full"
             />

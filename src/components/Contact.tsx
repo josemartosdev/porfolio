@@ -94,7 +94,7 @@ export default function Contact({ t, language }: ContactProps) {
                 {language === 'en' ? 'Available' : 'Disponible'}
               </span>
               <h3 className="text-lg sm:text-xl md:text-2xl font-sans font-bold text-white tracking-wide">
-                {language === 'en' ? 'Connect with José' : 'Conecta con José'}
+                {language === 'en' ? 'Connect with Jose' : 'Conecta con Jose'}
               </h3>
               <p className="text-slate-400 text-xs md:text-sm leading-relaxed">
                 {language === 'en'

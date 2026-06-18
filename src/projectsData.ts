@@ -14,7 +14,6 @@ export const projects: Project[] = [
     techText: 'React • Symfony 7 • PHP • OpenAI • Microsoft Graph',
     featured: true,
     demoUrl: 'https://srm-compras-front.vercel.app',
-    githubUrl: 'https://github.com/evolve-space/Proyecto-Master-IA-Evolve-JoseMartos.git',
     highlightsEn: [
       'Dashboard with KPIs, charts and procurement alerts',
       'Outlook email and calendar sync with hybrid AI classification',
@@ -41,7 +40,6 @@ export const projects: Project[] = [
     techText: 'React 19 • Symfony 7 • MySQL • JWT • Vercel + Railway',
     featured: true,
     demoUrl: 'https://cv-berja-front-qqx9ds48n-jose981s-projects.vercel.app',
-    githubUrl: 'https://github.com/josemartosdev/cv-berja-front',
     highlightsEn: [
       'Custom branding and sponsors for CV Berja volleyball club',
       'Full admin panel for teams, players and accounting',
@@ -53,6 +51,32 @@ export const projects: Project[] = [
       'Panel de administración completo para equipos, jugadores y contabilidad',
       'Despliegue en producción con endpoint de health-check en la API',
       'Guía de despliegue completa documentada en el repositorio',
+    ],
+  },
+  {
+    id: 'clubflow',
+    title: 'Club Flow',
+    subtitle: 'Plataforma de gestion deportiva para clubes y competiciones',
+    descriptionEn:
+      'Sports club management platform with a modern public site and modules for teams, fixtures, history and sponsors. Designed to centralize communication and improve club operations.',
+    descriptionEs:
+      'Plataforma de gestion deportiva con web publica moderna y modulos para equipos, partidos, historia y patrocinadores. Disenada para centralizar la comunicacion y mejorar la operativa del club.',
+    image: '/projects/clubflow.svg',
+    tags: ['React', 'Node.js'],
+    techText: 'React • Vite • TypeScript • Node.js • Vercel',
+    featured: true,
+    demoUrl: 'https://clubflow-frontend.vercel.app/',
+    highlightsEn: [
+      'Modern landing page focused on teams, live match content and results',
+      'Structured navigation for squads, fixtures, history and sponsors',
+      'Responsive interface optimized for mobile and desktop',
+      'Production deployment on Vercel with fast loading times',
+    ],
+    highlightsEs: [
+      'Landing moderna enfocada en equipos, partidos en directo y resultados',
+      'Navegacion estructurada para equipos, calendario, historia y patrocinadores',
+      'Interfaz responsive optimizada para movil y escritorio',
+      'Despliegue en Vercel con tiempos de carga rapidos',
     ],
   },
 ];
