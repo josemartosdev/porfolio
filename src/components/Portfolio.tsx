@@ -13,7 +13,7 @@ export default function Portfolio({ t, language }: PortfolioProps) {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   // Derive unique tech tags for filter categories
-  const filters = ['All', 'React', 'Symfony', 'PHP', 'IA', 'Node.js'];
+  const filters = ['All', 'React', 'Symfony', 'PHP', 'IA'];
 
   const filteredProjects =
     filter === 'All'
